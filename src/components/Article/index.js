@@ -57,7 +57,7 @@ class Article extends React.Component {
           <div className="row article-content">
             <div className="col-xs-12">
 
-              <div dangerouslySetInnerHTML={markup}></div>
+              <div className={"article-body"} dangerouslySetInnerHTML={markup}></div>
 
               <ul className="tag-list">
                 {
